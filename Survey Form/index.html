@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id="form-outer">
+      <p id="description">
+        Tell us how we can improve our Customer Relationship
+      </p>
+      <form id="survey-form">
+        <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">*Name: </label>
+          </div>
+          <div class="nametab">
+            <input autofocus type="text" name="name" id="name" class="text-input" placeholder="Enter Your Name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="email-label" for="email">*Email: </label>
+          </div>
+          <div class="nametab">
+            <input autofocus type="text" name="email" id="email" class="text-input" placeholder="Enter Your Email ID" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label id="number-label" for="age">*Age: </label>
+          </div>
+          <div class="nametab">
+            <input type="number" name="age" id="number" min="1" max="100" class="input-field" placeholder="Age">
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label for="userRating">* How likely is that you would recommend this website to a friend?</label>
+          </div>
+          <div class="nametab">
+            <ul style="list-style: none;">
+              <li class="radio"><label>Definitely<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+              <li class="radio"><label>Maybe<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+              <li class="radio"><label>Not sure<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <label for="position">Option for Current Position</label>
+        </div>
+        <div class="nametab">
+          <select id="dropdown" name="position" class="dropdown">
+            <option disabled value>Select An Option</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="job">Part Time Job</option>
+            <option value="house-wife">House-Wife</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label for="preferences">Things That Can Be Improved In future<br>Check All That Apply: </label>
+          </div>
+          <div class="nametab">
+            <ul id="preferences" style="list-style: name;">
+              <li class="checkbox"><label><input type="checkbox" name="prefer" value="1" class="user-rating">Communication</label></li>
+              <li class="checkbox"><label><input type="checkbox" name="prefer" value="2" class="user-rating">Internet Service</label></li>
+              <li class="checkbox"><label><input type="checkbox" name="prefer" value="3" class="user-rating">Employee Behaviour</label></li>
+              <li class="checkbox"><label><input type="checkbox" name="prefer" value="4" class="user-rating">Customer Support</label></li>
+              <li class="checkbox"><label><input type="checkbox" name="prefer" value="5" class="user-rating">Media Management Cell</label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label for="comments">Any Other Suggestions</label>
+            <textarea name="comment" id="comments" class="input-field" style="height:50px;resize:vertical;" placeholder="Enter Your Comments Here"></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+
+</html>
