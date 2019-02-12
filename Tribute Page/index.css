@@ -1,0 +1,70 @@
+#main {
+  background-color: #4c4f51;
+}
+
+#title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive, monospace, sans-serif;
+  color: #5daf9a;
+  text-align: center;
+  text-shadow: 2px 2px 2px #1C6EA4;
+  margin: 0px;
+  padding-top: 0px;
+  border: 2px solid black;
+}
+
+#container-2 {
+  font-size: 30px;
+  font-family: cursive, monospace, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #1C6EA4
+}
+
+#img-div {
+  display: inline-flex;
+}
+
+#image {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+#img-caption {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+#tribute-info {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.col-2 {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-family: monospace;
+  color: white;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#tribute-link {
+  color: cyan;
+}
